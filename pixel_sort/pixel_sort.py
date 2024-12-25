@@ -1,6 +1,7 @@
 """
 This one makes the file size smaller while preserving the image.
-Opens an image, sorts each row of pixels by their intensity up to the darkest pixel, creates a new image with the sorted pixels, displays it, and saves the sorted image.
+Opens an image, sorts each row of pixels by their intensity up to the darkest pixel, creates a new image with the sorted
+pixels, displays it, and saves the sorted image.
 https://levelup.gitconnected.com/pixel-sorting-in-python-62337c078118
 """
 from PIL import Image

@@ -103,5 +103,3 @@ csv2png = function (strData, strDelimiter) {
 
   return dataUri;
 };
-
-
