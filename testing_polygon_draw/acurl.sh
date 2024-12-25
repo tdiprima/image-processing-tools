@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# http://test-bmi.uhmc.sunysb.edu:4010/data/Mark/multi?name=%5B%22CNN_synthetic_n_real%22%5D&slide=TCGA-C4-A0F6-01Z-00-DX1
+curl 'http://test-bmi.uhmc.sunysb.edu:4010/data/Mark/multi?name=%5B%22CNN_synthetic_n_real%22%5D&slide=TCGA-C4-A0F6-01Z-00-DX1' -H 'Pragma: no-cache' -H 'DNT: 1' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: en-US,en;q=0.9' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36' -H 'Accept: */*' -H 'Referer: http://test-bmi.uhmc.sunysb.edu:4010/apps/viewer/viewer.html?slideId=5cbdfa8936d1a000070a7bbe' -H 'Connection: keep-alive' -H 'Cache-Control: no-cache' --compressed

@@ -1,0 +1,2 @@
+fetch("http://test-bmi.uhmc.sunysb.edu:4010/data/Mark/multi?name=%5B%22CNN_synthetic_n_real%22%5D&slide=TCGA-C4-A0F6-01Z-00-DX1", {"credentials":"omit","headers":{"accept":"*/*","accept-language":"en-US,en;q=0.9","cache-control":"no-cache","pragma":"no-cache"},"referrer":"http://test-bmi.uhmc.sunysb.edu:4010/apps/viewer/viewer.html?slideId=5cbdfa8936d1a000070a7bbe","referrerPolicy":"no-referrer-when-downgrade","body":null,"method":"GET","mode":"cors"});
+
