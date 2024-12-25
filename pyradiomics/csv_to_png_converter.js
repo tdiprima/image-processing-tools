@@ -1,28 +1,43 @@
 /*
-Fetches JSON or plaintext data from a URL, processes this data from CSV format into an image,
-and then returns a PNG data URL of the image.
+Fetches data from a given URL, processes it (assuming it's in CSV format), converts
+the data into a PNG image, and renders it on an HTML canvas element.
+
+TODO: Ensure a CSV file exists and is hosted on a server or accessible via a public URL.
+ The first line of the file should contain metadata (e.g., image dimensions), and subsequent lines should contain pixel data (x, y, R, G, B).
+ Call the getDataForImage(url) function from the browser's developer console.
+ getDataForImage('https://example.com/path/to/data.csv');
 */
 fetch_data = function (url) {
-  return fetch(url).then((response) => {
+    return fetch(url).then((response) => {
+        if (response.ok) {
+            return response.text(); // Always fetch as text first
+        } else {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+    }).then((text) => {
+        try {
+            console.log('Fetched content:', text); // Debugging output
 
-    if (response.headers.get('content-type') !== 'application/json') {
-      var data = response.text();
-    } else {
-      var data = response.json();
-    }
-    return data; // fulfillment value given to user of
-
-  });
+            // Try parsing the first line as JSON
+            const lines = text.split(/\r?\n/);
+            JSON.parse(lines[0]); // Check if first line is valid JSON
+            return text; // Return the raw text if parsing succeeds
+        } catch (err) {
+            throw new Error(`Invalid JSON in the first line: ${err.message}`);
+        }
+    });
 };
 
 
 getDataForImage = function (url) {
-  // Get CSV data
-  return fetch_data(url).then((response) => {
-    // Convert CSV to PNG
-    return csv2png(response, ',');
-  });
-
+    fetch_data(url)
+        .then((response) => csv2png(response, ','))
+        .then((dataUri) => {
+            console.log('Image generated:', dataUri);
+        })
+        .catch((err) => {
+            console.error('Error processing data:', err);
+        });
 };
 
 

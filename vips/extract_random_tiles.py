@@ -1,4 +1,5 @@
 # Generates four random 512x512 tiles from a specified .svs image file and writes them out as .png files.
+# TODO: Make sure the slideName exists.
 __author__ = 'tdiprima'
 
 import random

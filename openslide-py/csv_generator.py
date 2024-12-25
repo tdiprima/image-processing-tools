@@ -1,4 +1,6 @@
-# Reads PNG images from an input directory, extracts specific properties and pixel data, and writes the output as CSV files, also checking if corresponding slide files exist in a designated directory.
+# TODO: Reads PNG images from an input directory,
+# extracts specific properties and pixel data, and writes the output as CSV files,
+# also checking if corresponding slide files exist in a designated directory.
 import csv
 import os
 

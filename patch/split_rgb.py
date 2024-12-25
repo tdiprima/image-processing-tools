@@ -1,4 +1,5 @@
-# Processes an image file to separate and display its Red, Green, and Blue (RGB) color channels, potentially saving these as new images. It also includes related utility functions such as converting images to arrays and vice versa.
+# Processes an image file to separate and display its Red, Green, and Blue (RGB) color channels, potentially saving
+# these as new images. It also includes related utility functions such as converting images to arrays and vice versa.
 # python pil image split to rgb
 # https://stackoverflow.com/questions/51325224/python-pil-image-split-to-rgb
 # https://stackoverflow.com/questions/13550376/pil-image-to-array-numpy-array-to-array-python
@@ -9,7 +10,7 @@ import cv2 as cv
 import numpy as np
 from PIL import Image
 
-FILENAME = 'TCGA-4Z-AA7Q-01Z-00-DX1.png'
+FILENAME = '../../images/TCGA-4Z-AA7Q-01Z-00-DX1.png'
 
 
 def separate_colors():

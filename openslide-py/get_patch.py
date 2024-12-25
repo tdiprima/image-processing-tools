@@ -1,4 +1,6 @@
-# Exports a specific region of an image file as a 512x512 PNG using the OpenSlide library and calculates differences between consecutive elements in an array.
+# Exports a specific region of an image file as a 512x512 PNG using the OpenSlide library and calculates differences
+# between consecutive elements in an array.
+# TODO: Make sure slide path is correct.
 def get_patch():
     import openslide
 

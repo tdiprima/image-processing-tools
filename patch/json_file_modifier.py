@@ -1,4 +1,6 @@
-# Modifies the first line of the input file by parsing it as JSON, replacing keywords, changing dimensions, and copying the result to a new file.
+# Modifies the first line of the input file by parsing it as JSON, replacing keywords,
+# changing dimensions, and copying the result to a new file.
+# TODO: Make sure file path exists
 # https://bytes.com/topic/python/answers/870172-python-search-text-file-string-replace
 import fileinput
 import json

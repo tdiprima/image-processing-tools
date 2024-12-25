@@ -9,7 +9,7 @@ import openslide
 
 
 def main():
-    png = cv2.imread('TCGA-3C-AALI-01Z-00-DX1.png', cv2.IMREAD_COLOR)  # Loads a color image.
+    png = cv2.imread('../../images/TCGA-3C-AALI-01Z-00-DX1.png', cv2.IMREAD_COLOR)  # Loads a color image.
     h_png = png.shape[0]
     w_png = png.shape[1]
 

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-
+# Processes a Pyradiomics CSV file to generate a transformed output with spatial and intensity data,
+# prepends metadata from a JSON file as a header, and saves the result to a specified destination file.
+# RUN: ./create_map.sh pyrad_file.csv meta_file.json output_file.csv
 src1=$1
 src2=$2
 dest=$3
