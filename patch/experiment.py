@@ -1,3 +1,4 @@
+# Generates and saves several images with different color maps and a specific image of size 512x512 with a red patch in the upper left.
 # open g.png h.png my.png red_blue.png
 import numpy as np
 from PIL import Image

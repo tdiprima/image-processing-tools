@@ -1,5 +1,6 @@
 /*
-Read generated csv file and display it.
+Fetches JSON or plaintext data from a URL, processes this data from CSV format into an image,
+and then returns a PNG data URL of the image.
 */
 fetch_data = function (url) {
   return fetch(url).then((response) => {

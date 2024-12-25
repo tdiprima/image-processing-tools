@@ -1,3 +1,4 @@
+# Extracts the red channel from an image, creates a new, initially empty image of the same size, assigns the extracted red channel to the new image, and saves the new image.
 # https://pythonexamples.org/python-opencv-extract-red-channel-of-image/
 # To visualize the image in red color, let us make the blue and green components to zeroes.
 

@@ -1,3 +1,4 @@
+# Defines two functions; 'get_patch' which opens an image, extracts a region, and saves it as 'img1.png', and 'zoom_levels' which iterates through an array and prints differences between each element and the next in sequence.
 def get_patch():
     import openslide
 

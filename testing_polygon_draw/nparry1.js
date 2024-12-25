@@ -1,3 +1,4 @@
+// The given code represents a multi-dimensional array with pairs of floating-point numbers.
 [
     [
         0.2801970108695652,

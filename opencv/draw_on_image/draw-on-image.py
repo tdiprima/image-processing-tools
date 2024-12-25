@@ -1,3 +1,4 @@
+# This code imports an image, draws a polygon on it, and displays the updated image.
 # python opencv-drawing.py
 # https://youtu.be/U6uIrq2eh_o
 import cv2

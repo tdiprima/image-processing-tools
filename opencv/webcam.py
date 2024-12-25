@@ -1,3 +1,4 @@
+# Captures video from the default camera, converts each frame to grayscale, displays the grayscale frames continuously until 'q' is pressed.
 # Requirements:
 # pip install numpy
 # sudo apt-get install python-openCV

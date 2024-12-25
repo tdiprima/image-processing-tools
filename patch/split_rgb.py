@@ -1,4 +1,4 @@
-#!/usr/bin/python
+# Processes an image file to separate and display its Red, Green, and Blue (RGB) color channels, potentially saving these as new images. It also includes related utility functions such as converting images to arrays and vice versa.
 # python pil image split to rgb
 # https://stackoverflow.com/questions/51325224/python-pil-image-split-to-rgb
 # https://stackoverflow.com/questions/13550376/pil-image-to-array-numpy-array-to-array-python

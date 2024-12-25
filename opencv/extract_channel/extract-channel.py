@@ -1,3 +1,4 @@
+# Extracts the red channel from an image and writes it to a new greyscale image.
 # https://pythonexamples.org/python-opencv-extract-red-channel-of-image/
 import cv2
 

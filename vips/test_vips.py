@@ -1,4 +1,4 @@
-# Convert the whole svs to a png.
+# Converts an entire SVS image to PNG after cropping, scaling down, and applying a convolution matrix to it.
 import sys
 
 import pyvips as Vips

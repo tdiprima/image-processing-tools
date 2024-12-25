@@ -1,5 +1,6 @@
 """
 This one makes a mess of the image, like it's supposed to.
+Opens an image, sorts the pixels in each row from darkest to brightest, then creates and displays a new image from the sorted pixels, saving it with a new name.
 https://levelup.gitconnected.com/pixel-sorting-in-python-62337c078118
 """
 from PIL import Image

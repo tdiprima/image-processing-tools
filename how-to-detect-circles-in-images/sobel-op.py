@@ -1,4 +1,5 @@
 """
+Uses the Sobel Operator to detect the edges of a circle in an image and creates a new image with these edges highlighted.
 https://www.codingame.com/playgrounds/38470/how-to-detect-circles-in-images
 Output is a nice, clean, thick-line circle.
 """

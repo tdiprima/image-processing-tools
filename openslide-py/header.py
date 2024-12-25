@@ -1,7 +1,6 @@
-#!/usr/bin/env python
-
 """
 A simple python script to generate a header.
+Loads a color image and an OpenSlide object, then it prints the dimensions of the image and the OpenSlide object, along with predetermined patch dimensions.
 """
 
 import sys

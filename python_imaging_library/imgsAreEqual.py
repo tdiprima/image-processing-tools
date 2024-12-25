@@ -1,3 +1,4 @@
+# Compares two images to check if they are identical and handles exceptions if they're not.
 from PIL import Image
 from PIL import ImageChops
 

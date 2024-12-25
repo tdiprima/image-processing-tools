@@ -1,4 +1,5 @@
 """
+Implements the Canny edge detection algorithm on an input image, transforming it into grayscale, applying Gaussian blur, computing the image gradient, suppressing non-maximums, and filtering out edges below a certain threshold to highlight the main features, and saves it as "canny.png".
 Output is a little ruff 🐶
 """
 from math import sqrt, atan2, pi

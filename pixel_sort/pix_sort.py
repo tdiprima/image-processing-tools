@@ -1,5 +1,6 @@
 """
 Pixel Sorting
+Sorting the pixels of an input image by their color values, exporting the sorted pixels data into an Excel file, and creating a video of the pixel sorting process.
 TODO: You need to pass the image name w/o extension.
   Also, it needs to be in a folder called Image!
 http://eddiejackson.net/data/python/pixel_sort.py

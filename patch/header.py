@@ -1,7 +1,6 @@
-#!/usr/bin/env python
-
 """
 A simple python script to generate a header.
+Reads an image and a slide file, then outputs their widths and heights, along with fixed patch dimensions, as a dictionary.
 """
 
 import sys

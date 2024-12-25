@@ -1,3 +1,4 @@
+# Reads an image, extracts the green channel, calculates and prints its mean and standard deviation, creates a histogram of pixel values in the green channel, and displays it.
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt

@@ -1,3 +1,4 @@
+# Establishes a connection to a MongoDB database and fetches certain data based on a specific query.
 # Translate point coordinates to image
 import pymongo
 

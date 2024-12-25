@@ -1,5 +1,4 @@
-#!/usr/bin/python
-# RANDOM SCENE GENERATOR
+# Generates four random 512x512 tiles from a specified .svs image file and writes them out as .png files.
 __author__ = 'tdiprima'
 
 import random

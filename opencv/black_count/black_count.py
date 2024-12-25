@@ -1,7 +1,7 @@
-#!/usr/bin/env python
-
 """
 Count black pixels in an image.
+Reads an image, converts it to grayscale, resizes it, and then exits.
+
 https://stackoverflow.com/questions/19167348/count-the-black-pixels-using-opencv/
 """
 

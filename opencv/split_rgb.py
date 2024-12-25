@@ -1,4 +1,5 @@
 """Split image to RGB
+Provides functionalities for image processing such as load an image to extract, separate and manipulate RGB color channels, convert the image to greyscale, invert a greyscale, display the image, save image or RGB data to a file and plot color histograms.
 https://stackoverflow.com/questions/51325224/python-pil-image-split-to-rgb
 https://stackoverflow.com/questions/13550376/pil-image-to-array-numpy-array-to-array-python
 """

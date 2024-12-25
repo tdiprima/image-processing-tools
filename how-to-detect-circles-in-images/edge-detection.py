@@ -1,4 +1,5 @@
 """
+Detects edges in an image by converting it to grayscale and performing convolution operation, then saves the resulting image.
 https://www.codingame.com/playgrounds/38470/how-to-detect-circles-in-images
 Output is a nice, clean circle.
 

@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-
 """
-Detect black pixels in an image.
+Detects black pixels in an image and changes them to red.
 https://answers.opencv.org/question/57532/unable-to-detect-black-pixels/
 """
 

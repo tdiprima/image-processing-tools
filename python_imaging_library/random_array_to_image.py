@@ -1,3 +1,4 @@
+# Creates a 256x256 image with random RGB values and saves it as 'myimg.png'.
 import random
 
 import numpy as np

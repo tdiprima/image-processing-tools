@@ -1,6 +1,5 @@
-#!/usr/bin/env python
-
 """Drawing and Writing on Image
+contains two functions (demo1, demo2) which load images, create polylines at specified coordinates on these images, and display the images.
 https://youtu.be/U6uIrq2eh_o
 https://stackoverflow.com/questions/7508638/how-to-multiply-a-scalar-throughout-a-specific-column-within-a-numpy-array
 """
