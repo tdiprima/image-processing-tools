@@ -35,5 +35,4 @@ def get_mark(connectstr):
         print("No marks found")
 
 
-# get_hosts("mongodb://129.49.170.48:27017/")
 get_mark("mongodb://localhost:27017/")
